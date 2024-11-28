@@ -3,8 +3,8 @@
     <h2 class="title">Cadastro de Equipamento</h2>
     <form @submit.prevent="handleSubmit" class="form">
       <div class="input-field">
-        <label for="equipamentoNome" class="form-label">Nome do Equipamento</label>
-        <input v-model="equipamento.equipamentoNome" type="text" id="equipamentoNome" required class="input" />
+        <label for="Nome" class="form-label">Nome do Equipamento</label>
+        <input v-model="equipamento.Nome" type="text" id="Nome" required class="input" />
       </div>
 
       <div class="input-field">
@@ -30,14 +30,16 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
       equipamento: {
-        equipamentoNome: '',
+        Nome: '',
         tipo: '',
         numeroSerie: '',
-        status: ''
+        status: '',
       },
       statusOptions: ['Inspecionado', 'Disponível'],
     };
@@ -45,27 +47,21 @@ export default {
   methods: {
     async handleSubmit() {
       try {
-        // Gerar o ID automaticamente (exemplo: UUID, timestamp ou contador incremental)
-        this.equipamento.equipamentoId = this.generateId();
+        const response = await axios.post('https://localhost:7033/api/Equipamento', this.equipamento);
 
-        const response = await fetch('API_URL/equipamentos', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(this.equipamento),
-        });
-        if (response.ok) {
+        if (response.status === 201) { // Mudança de 200 para 201
           alert('Equipamento salvo com sucesso!');
-        } else {
-          alert('Erro ao salvar o equipamento');
+          this.equipamento = { nome: '', tipo: '', numeroSerie: '', status: '' };
         }
       } catch (error) {
-        console.error('Erro ao enviar dados:', error);
+        console.error('Erro ao salvar equipamento:', error);
+        if (error.response && error.response.data) {
+          alert(error.response.data);
+        } else {
+          alert('Erro ao salvar o equipamento. Verifique os detalhes no console.');
+        }
       }
     },
-
-    generateId() {
-      return 'EQ' + Date.now();
-    }
   }
 };
 </script>

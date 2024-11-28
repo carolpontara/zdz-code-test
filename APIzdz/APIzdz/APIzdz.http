@@ -1,6 +1,0 @@
-@APIzdz_HostAddress = http://localhost:5265
-
-GET {{APIzdz_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
