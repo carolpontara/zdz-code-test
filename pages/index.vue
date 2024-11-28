@@ -55,58 +55,10 @@
           </v-card>
         </v-col>
       </v-row>
-
-      <v-row class="mt-10" dense>
-        <v-col cols="12" md="6">
-          <h3 class="text-h5 font-weight-bold mb-2">Equipamentos Recentes</h3>
-          <v-data-table dense :headers="equipamentosHeaders" :items="equipamentos" class="elevation-1">
-            <template #no-data>
-              <p>Nenhum equipamento cadastrado.</p>
-            </template>
-          </v-data-table>
-        </v-col>
-        <v-col cols="12" md="6">
-          <h3 class="text-h5 font-weight-bold mb-2">Manutenções Recentes</h3>
-          <v-data-table dense :headers="manutencoesHeaders" :items="manutencoes" class="elevation-1">
-            <template #no-data>
-              <p>Nenhuma manutenção registrada.</p>
-            </template>
-          </v-data-table>
-        </v-col>
-      </v-row>
     </v-container>
   </v-app>
 </template>
-
 <script>
-export default {
-  data() {
-    return {
-      equipamentosHeaders: [
-        { text: 'Nome', value: 'nome' },
-        { text: 'Tipo', value: 'tipo' },
-        { text: 'Número de Série', value: 'numeroSerie' },
-        { text: 'Status', value: 'status' },
-      ],
-      equipamentos: [
-        { nome: 'Esteira', tipo: 'Industrial', numeroSerie: '123456', status: 'Ativo' },
-        { nome: 'Gerador', tipo: 'Elétrico', numeroSerie: '789101', status: 'Inativo' },
-      ],
-
-      manutencoesHeaders: [
-        { text: 'Data', value: 'data' },
-        { text: 'Descrição', value: 'descricao' },
-        { text: 'Técnico', value: 'tecnico' },
-        { text: 'Custo', value: 'custo' },
-        { text: 'Status', value: 'status' },
-      ],
-      manutencoes: [
-        { data: '2024-11-01', descricao: 'Substituição de peça', tecnico: 'Carlos Silva', custo: 'R$ 500', status: 'Concluído' },
-        { data: '2024-11-15', descricao: 'Reparos gerais', tecnico: 'Ana Paula', custo: 'R$ 300', status: 'Pendente' },
-      ],
-    };
-  },
-};
 </script>
 
 <style scoped>
@@ -116,8 +68,4 @@ export default {
   height: 300px;
   justify-content: space-between;
 }
-
-
-
-
 </style>

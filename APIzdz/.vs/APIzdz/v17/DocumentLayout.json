@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\manutencao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\manutencao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\controllers\\manutencaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\controllers\\manutencaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\controllers\\tecnicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\controllers\\tecnicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\controllers\\equipamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\controllers\\equipamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +35,8 @@
       "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\equipamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\apizdz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\apizdz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\models\\manutencao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|solutionrelative:apizdz\\models\\manutencao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D26BD7DF-DA48-4DC4-A6A9-0F6E8F3BA7A6}|APIzdz\\APIzdz.csproj|c:\\dev\\teste-zdzcode\\zdz-code-test\\apizdz\\apizdz\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,43 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EFDBContext.cs",
-              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\EFDBContext.cs",
-              "RelativeDocumentMoniker": "APIzdz\\Models\\EFDBContext.cs",
-              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\EFDBContext.cs",
-              "RelativeToolTip": "APIzdz\\Models\\EFDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:25:44.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Program.cs",
-              "RelativeDocumentMoniker": "APIzdz\\Program.cs",
-              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Program.cs",
-              "RelativeToolTip": "APIzdz\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:09:56.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Manutencao.cs",
               "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\Manutencao.cs",
               "RelativeDocumentMoniker": "APIzdz\\Models\\Manutencao.cs",
               "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\Manutencao.cs",
               "RelativeToolTip": "APIzdz\\Models\\Manutencao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T13:47:33.156Z",
               "EditorCaption": ""
@@ -86,19 +68,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TecnicoController.cs",
+              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\TecnicoController.cs",
+              "RelativeDocumentMoniker": "APIzdz\\Controllers\\TecnicoController.cs",
+              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\TecnicoController.cs",
+              "RelativeToolTip": "APIzdz\\Controllers\\TecnicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:32:40.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EquipamentoController.cs",
+              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\EquipamentoController.cs",
+              "RelativeDocumentMoniker": "APIzdz\\Controllers\\EquipamentoController.cs",
+              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\EquipamentoController.cs",
+              "RelativeToolTip": "APIzdz\\Controllers\\EquipamentoController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:37:44.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Tecnico.cs",
               "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\Tecnico.cs",
               "RelativeDocumentMoniker": "APIzdz\\Models\\Tecnico.cs",
               "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\Tecnico.cs",
               "RelativeToolTip": "APIzdz\\Models\\Tecnico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T13:46:29.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Equipamento.cs",
               "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\Equipamento.cs",
               "RelativeDocumentMoniker": "APIzdz\\Models\\Equipamento.cs",
@@ -111,33 +119,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "APIzdz",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Program.cs",
+              "RelativeDocumentMoniker": "APIzdz\\Program.cs",
+              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Program.cs",
+              "RelativeToolTip": "APIzdz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:09:56.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManutencaoController.cs",
+              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\ManutencaoController.cs",
+              "RelativeDocumentMoniker": "APIzdz\\Controllers\\ManutencaoController.cs",
+              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\ManutencaoController.cs",
+              "RelativeToolTip": "APIzdz\\Controllers\\ManutencaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:24:35.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EFDBContext.cs",
+              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\EFDBContext.cs",
+              "RelativeDocumentMoniker": "APIzdz\\Models\\EFDBContext.cs",
+              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Models\\EFDBContext.cs",
+              "RelativeToolTip": "APIzdz\\Models\\EFDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:25:44.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "APIzdz.csproj",
               "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\APIzdz.csproj",
               "RelativeDocumentMoniker": "APIzdz\\APIzdz.csproj",
               "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\APIzdz.csproj",
               "RelativeToolTip": "APIzdz\\APIzdz.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-28T13:44:31.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T13:44:31.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EquipamentoController.cs",
-              "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\EquipamentoController.cs",
-              "RelativeDocumentMoniker": "APIzdz\\Controllers\\EquipamentoController.cs",
-              "ToolTip": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\Controllers\\EquipamentoController.cs",
-              "RelativeToolTip": "APIzdz\\Controllers\\EquipamentoController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwCoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:37:44.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Dev\\teste-zdzcode\\zdz-code-test\\APIzdz\\APIzdz\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "APIzdz\\WeatherForecast.cs",
@@ -145,8 +178,7 @@
               "RelativeToolTip": "APIzdz\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:37:29.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T13:37:29.681Z"
             }
           ]
         }

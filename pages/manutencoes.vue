@@ -4,7 +4,7 @@
     <form @submit.prevent="submitForm" class="form">
       <div class="input-field">
         <label for="data" class="form-label">Data da Manutenção</label>
-        <input v-model="formData.data" type="date" id="data" required class="input"/>
+        <input v-model="formData.data" type="date" id="data" required class="input" />
       </div>
 
       <div class="input-field">
@@ -14,7 +14,7 @@
 
       <div class="input-field">
         <label for="custo" class="form-label">Custo</label>
-        <input v-model="formData.custo" type="number" step="0.01" id="custo" required class="input"/>
+        <input v-model="formData.custo" type="number" step="0.01" id="custo" required class="input" />
       </div>
 
       <div class="input-field">
@@ -34,8 +34,9 @@
           </option>
         </select>
       </div>
+
       <div class="input-field">
-        <label for="tecnicoId" class="form-label">Tecnico</label>
+        <label for="tecnicoId" class="form-label">Técnico</label>
         <select v-model="formData.tecnicoId" id="tecnicoId" required class="input">
           <option v-for="tecnico in tecnicos" :key="tecnico.id" :value="tecnico.id">
             {{ tecnico.nome }}
@@ -49,63 +50,71 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
       formData: {
-        data: '',
-        descricao: '',
-        custo: '',
-        status: 'pendente',
+        data: "",
+        descricao: "",
+        custo: "",
+        status: "pendente",
         equipamentoId: null,
+        tecnicoId: null,
       },
       equipamentos: [],
+      tecnicos: [],
     };
   },
   methods: {
     async submitForm() {
       try {
-        const response = await fetch('API_URL/manutencao', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(this.formData),
-        });
-        const result = await response.json();
-        if (result.success) {
-          alert('Manutenção cadastrada com sucesso!');
+        const response = await axios.post(
+          "https://localhost:7033/api/Manutencao",
+          this.formData,
+          {
+            headers: {
+              'Content-Type': 'application/json',
+            }
+          }
+        );
+
+        if (response.status === 201) {
+          alert("Manutenção cadastrada com sucesso!");
           this.clearForm();
         } else {
-          alert('Erro ao cadastrar manutenção');
+          alert("Erro ao cadastrar manutenção");
         }
       } catch (error) {
-        console.error(error);
-        alert('Erro de conexão');
+        console.error("Erro ao enviar os dados:", error);
+        alert("Erro de conexão ou dados inválidos");
       }
     },
     async loadEquipamentos() {
       try {
-        const response = await fetch('API_URL/equipamentos');
-        this.equipamentos = await response.json();
+        const response = await axios.get("https://localhost:7033/api/Equipamento");
+        this.equipamentos = response.data;
       } catch (error) {
-        console.error(error);
-        alert('Erro ao carregar equipamentos');
+        console.error("Erro ao carregar equipamentos:", error);
+        alert("Erro ao carregar equipamentos");
       }
     },
     async loadTecnicos() {
       try {
-        const response = await fetch('API_URL/tecnicos');
-        this.equipamentos = await response.json();
+        const response = await axios.get("https://localhost:7033/api/Tecnico");
+        this.tecnicos = response.data;
       } catch (error) {
-        console.error(error);
-        alert('Erro ao carregar tecnicos');
+        console.error("Erro ao carregar técnicos:", error);
+        alert("Erro ao carregar técnicos");
       }
     },
     clearForm() {
       this.formData = {
-        data: '',
-        descricao: '',
-        custo: '',
-        status: 'pendente',
+        data: "",
+        descricao: "",
+        custo: "",
+        status: "pendente",
         equipamentoId: null,
         tecnicoId: null,
       };
@@ -113,6 +122,7 @@ export default {
   },
   mounted() {
     this.loadEquipamentos();
+    this.loadTecnicos();
   },
 };
 </script>

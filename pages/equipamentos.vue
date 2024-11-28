@@ -49,7 +49,7 @@ export default {
       try {
         const response = await axios.post('https://localhost:7033/api/Equipamento', this.equipamento);
 
-        if (response.status === 201) { // Mudança de 200 para 201
+        if (response.status === 201) {
           alert('Equipamento salvo com sucesso!');
           this.equipamento = { nome: '', tipo: '', numeroSerie: '', status: '' };
         }

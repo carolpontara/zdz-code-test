@@ -4,17 +4,17 @@
     <form @submit.prevent="submitForm" class="form">
       <div class="input-field">
         <label for="nome" class="form-label">Nome</label>
-        <input v-model="formData.nome" type="text" id="nome" required class="input" />
+        <input v-model="formData.Nome" type="text" id="nome" required class="input" />
       </div>
 
       <div class="input-field">
         <label for="telefone" class="form-label">Telefone</label>
-        <input v-model="formData.telefone" type="tel" id="telefone" required class="input" />
+        <input v-model="formData.Telefone" type="tel" id="telefone" required class="input" />
       </div>
 
       <div class="input-field">
         <label for="especialidade" class="form-label">Especialidade</label>
-        <input v-model="formData.especialidade" type="text" id="especialidade" required class="input" />
+        <input v-model="formData.Especialidade" type="text" id="especialidade" required class="input" />
       </div>
 
       <button type="submit" class="submit-btn">Cadastrar Técnico</button>
@@ -23,26 +23,26 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
       formData: {
-        nome: '',
-        telefone: '',
-        especialidade: '',
+        Nome: '',
+        Telefone: '',
+        Especialidade: '',
       },
     };
   },
   methods: {
     async submitForm() {
       try {
-        const response = await fetch('API_URL/tecnicos', {
-          method: 'POST',
+        const response = await axios.post('https://localhost:7033/api/Tecnico', this.formData, {
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(this.formData),
         });
-        const result = await response.json();
-        if (result.success) {
+
+        if (response.status === 201) {
           alert('Técnico cadastrado com sucesso!');
           this.clearForm();
         } else {
@@ -50,14 +50,14 @@ export default {
         }
       } catch (error) {
         console.error(error);
-        alert('Erro de conexão');
+        alert(`Erro de conexão: ${error.message}`);
       }
     },
     clearForm() {
       this.formData = {
-        nome: '',
-        telefone: '',
-        especialidade: '',
+        Nome: '',
+        Telefone: '',
+        Especialidade: '',
       };
     },
   },
@@ -98,12 +98,6 @@ export default {
   font-size: 16px;
   color: #333;
   transition: all 0.3s ease;
-}
-
-.input-field:focus {
-  border-color: #3498db;
-  outline: none;
-  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
 }
 
 .input {
